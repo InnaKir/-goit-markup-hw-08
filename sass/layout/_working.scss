@@ -1,15 +1,38 @@
+/* 0px - 767px */
+
+@media screen and (max-width: 767px) {
+    .work {
+        display: none;
+    }
+}
+
+/* 768px + */
+
+@media screen and (min-width: 768px) {
 .work {
-    padding-top: 0;
+        display: none;
+    }
 }
 
-.section__title {
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
+  /* 
+1200px +
+*/
 
-.work-menu {
-    display: flex;
-    gap: 30px;
-    margin-top: 50px;
-}
+  @media screen and (min-width: 1200px) {
+.work {
+    display: block;
+        padding-top: 0;
+    }
+
+    .section__title {
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+    }
+
+    .work-menu {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+  }

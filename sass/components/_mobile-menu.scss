@@ -66,9 +66,9 @@
                 font-size: 40px;
                 line-height: 1.18;
                 letter-spacing: 0.02em;
-                color: var(--main-text-color);
+                color: black;
         }
-        .mobile-menu__item :not(:last-child) {
+        .mobile-menu__item:not(:last-child) {
             margin-bottom: 32px;
         }
 
@@ -90,7 +90,7 @@
         color: var(--accent-color);
 }
 
-.mobile-contact__item :not(:last-child) {
+.mobile-contact__item:not(:last-child) {
     margin-bottom: 32px;
 }
     .mobile-social-menu {

@@ -126,21 +126,22 @@
       </div>
     </header>
 
-    <!--main-->
-    <!-- <main class="main"> -->
-      <!--section 1-->
+    <!-- main-->
+    <main class="main">
+      <!-- section 1 -->
       
-         <!-- <section class="main-section secttion">
+         <section class="main-section secttion">
           <div class="container"> 
             <h1 class="main-section__title">Ефективні рішення для вашого бізнесу</h1>
         <button class="section-btn" type="button" data-modal-open>Замовити послугу</button>
       </div>
        
-      </section> -->
+      </section>
     
      
-      <!--section 2-->
-      <!-- <section class="main-about secttion">
+      <!-- section 2-->
+
+      <section class="main-about secttion">
         <div class="container">
          
 <h2 class="main-about__title">Особливості</h2>
@@ -195,11 +196,11 @@
           </li>
         </ul>
       </section>
-        </div> -->
+        </div>
         
       <!--section 3-->
 
-      <!-- <section class="work secttion">
+      <section class="work secttion">
         <div class="container">
  <h2 class="section__title">Чим ми займаємося</h2>
         <ul class="work-menu list">
@@ -232,22 +233,52 @@
           </li>
         </ul>
       </section>
-        </div> -->
+        </div>
        
       <!--section 4-->
 
-      <!-- <section class="team secttion">
+      <section class="team secttion">
         <div class="container">
    <h2 class="section__title">Наша команда</h2>
         <ul class="team-photo list">
           <li class="team__item">
-            <img
+            <picture>
+
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-1-desktop.webp 1x, ./img/team/desktop/team-1-desktop@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-1-desktop.jpg 1x, ./img/team/desktop/team-1-desktop@2x.jpg 2x"
+              />
+
+               <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-1-tablet.webp 1x, ./img/team/tablet/team-1-tablet@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-1-tablet.jpg 1x, ./img/team/tablet/team-1-tablet@2x.jpg 2x"
+              />
+
+               <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-1-mobile.webp 1x, ./img/team/mobile/team-1-mobile@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-1-mobile.jpg 1x, ./img/team/mobile/team-1-mobile@2x.jpg 2x"
+              />
+              
+  <img
               class="team__img"
-              src="./img/card-1.jpg"
+              src="./img/team/mobile/team-1-mobile.jpg"
               alt=" Фото Ігоря Дем'яненко"
-              width="270"
-              height="260"
+            
             />
+            </picture>
+          
             <h3 class="team-photo__name">Ігор Дем'яненко</h3>
             <p class="team-photo__profession">Product Designer</p>
             <ul class="social-list list">
@@ -283,13 +314,41 @@
           </li>
 
           <li class="team__item">
-            <img
+            <picture>
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-2-desktop.webp 1x, ./img/team/desktop/team-2-desktop@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-2-desktop.jpg 1x, ./img/team/desktop/team-2-desktop@2x.jpg 2x"
+              />
+
+               <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-2-tablet.webp 1x, ./img/team/tablet/team-2-tablet@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-2-tablet.jpg 1x, ./img/team/tablet/team-2-tablet@2x.jpg 2x"
+              />
+
+               <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-2-mobile.webp 1x, ./img/team/mobile/team-2-mobile@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-2-mobile.jpg 1x, ./img/team/mobile/team-2-mobile@2x.jpg 2x"
+              />
+
+ <img
               class="team__img"
-              src="./img/card-2.jpg"
+              src="./img/team/mobile/team-2-mobile.jpg"
               alt="Фото Ольгі Рєпіной"
-              width="270"
-              height="260"
             />
+            </picture>
+           
             <h3 class="team-photo__name">Ольга Рєпіна</h3>
             <p class="team-photo__profession">Frontend Developer</p>
                         <ul class="social-list list">
@@ -324,13 +383,44 @@
             </ul>
           </li>
           <li class="team__item">
+            <picture>
+
+               <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-3-desktop.webp 1x, ./img/team/desktop/team-3-desktop@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-3-desktop.jpg 1x, ./img/team/desktop/team-3-desktop@2x.jpg 2x"
+              />
+
+               <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-3-tablet.webp 1x, ./img/team/tablet/team-3-tablet@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-3-tablet.jpg 1x, ./img/team/tablet/team-3-tablet@2x.jpg 2x"
+              />
+
+               <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-3-mobile.webp 1x, ./img/team/mobile/team-3-mobile@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-3-mobile.jpg 1x, ./img/team/mobile/team-3-mobile@2x.jpg 2x"
+              />
+
+
             <img
               class="team__img"
-              src="./img/card-3.jpg"
+              src="./img/team/mobile/team-3-mobile.jpg"
               alt="Фото Миколи Тарасова"
-              width="270"
-              height="260"
+
             />
+            </picture>
+
             <h3 class="team-photo__name">Микола Тарасов</h3>
             <p class="team-photo__profession">Marketing</p>
                         <ul class="social-list list">
@@ -365,13 +455,42 @@
             </ul>
           </li>
           <li class="team__item">
+            <picture>
+
+               <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-4-desktop.webp 1x, ./img/team/desktop/team-4-desktop@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 1200px)" 
+              srcset="./img/team/desktop/team-4-desktop.jpg 1x, ./img/team/desktop/team-4-desktop@2x.jpg 2x"
+              />
+
+               <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-4-tablet.webp 1x, ./img/team/tablet/team-4-tablet@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(min-width: 768px)" 
+              srcset="./img/team/tablet/team-4-tablet.jpg 1x, ./img/team/tablet/team-4-tablet@2x.jpg 2x"
+              />
+
+               <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-4-mobile.webp 1x, ./img/team/mobile/team-4-mobile@2x.webp 2x"
+              type="image/webp"
+              />
+
+              <source media="(max-width: 767px)" 
+              srcset="./img/team/mobile/team-4-mobile.jpg 1x, ./img/team/mobile/team-4-mobile@2x.jpg 2x"
+              />
             <img
               class="team__img"
-              src="./img/card-4.jpg"
+              src="./img/team/mobile/team-4-mobile.jpg"
               alt="Фото Михайла Єрмакова"
-              width="270"
-              height="260"
+
             />
+            </picture>
+
             <h3 class="team-photo__name">Михайло Єрмаков</h3>
             <p class="team-photo__profession">UI Designer</p>
                         <ul class="social-list list">
@@ -407,7 +526,7 @@
           </li>
         </ul>
           </div>
-      </section> -->
+      </section>
 
       <!--section 5-->
 
