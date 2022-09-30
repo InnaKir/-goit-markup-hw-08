@@ -607,7 +607,15 @@ button {
   height: 18px;
 }
 
-/* 0-320 */
+@media screen and (min-width: 480px) and (max-width: 1199px) and (orientation: landscape) {
+  .modal {
+    width: 450px;
+    height: 609px;
+    top: 15px;
+    transform: translate(-50%, 0) scale(1) rotate(360deg);
+  }
+}
+/* 0-450 */
 @media screen and (max-width: 450px) {
   .modal {
     width: 90%;
@@ -893,7 +901,7 @@ button {
 /* 2x + 1200px + screen */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main-section {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../img/hero/hero-desktop@2x.jpg");
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/hero-desktop@2x.jpg");
   }
 }
 .main-about__title {

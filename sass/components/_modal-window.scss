@@ -37,7 +37,17 @@
     height: 18px;
 }
 
-/* 0-320 */
+@media screen and (min-width: 480px) and (max-width: 1199px) and (orientation: landscape) {
+    .modal {
+        width: 450px;
+        height: 609px;
+        top: 15px;
+        transform: translate(-50%, 0) scale(1) rotate(360deg);
+    }
+}
+
+
+/* 0-450 */
 @media screen and (max-width: 450px) {
 .modal {
         width: 90%;
