@@ -135,7 +135,7 @@ screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .main-section {
             background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url('../../img/hero/hero-desktop@2x.jpg')
+                url('../img/hero/hero-desktop@2x.jpg')
         }
   }
 
