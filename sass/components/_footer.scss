@@ -55,13 +55,18 @@
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-
+.social-list-link {
+    .footer-social-icon {
+        fill: var(--text-color-theme-dark);
+    }
+}
 .footer-social-icon {
     fill: var(--text-color-theme-dark);
 }
 
 .footer-social-link {
     background-color: rgba(255, 255, 255, 0.1);
+
 }
 
 .social-list-link:hover,
@@ -148,6 +153,13 @@ justify-content: space-between;
 margin-bottom: 60px;
 }
 
+.footer-colum-left {
+   text-align: center;
+}
+
+.footer-colum-right {
+ text-align: center;
+}
 .footer-subscribe {
     text-align: center;
 }
@@ -184,6 +196,9 @@ margin-bottom: 60px;
     margin-bottom: 0px;
 }
 
+.footer-tablet-common {
+    margin-bottom: 0;
+}
 }
 
 

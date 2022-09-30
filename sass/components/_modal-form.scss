@@ -170,9 +170,18 @@
         }
 }
 
+/* 0 - 450 */
+
+@media screen and (max-width: 450px) {
+    .modal-form-check-field {
+        font-size: 8px;
+        line-height: 1.17;
+    }
+}
+
 /* 0px - 767px */
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 451px) and (max-width: 767px) {
     .modal-form-check-field {
         font-size: 12px;
         line-height: 1.17;

@@ -39,10 +39,11 @@
 .clients-list {
     flex-wrap: wrap;
 }
-    .clients-link {
-            width: 210px;
 
+.clients-item {
+    width: calc((100% - 30px) / 2);
 }
+
 }
 /* 768px + */
 
