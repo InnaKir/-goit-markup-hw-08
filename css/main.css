@@ -1177,6 +1177,10 @@ button {
     width: 170px;
   }
 }
+.header {
+  border: 1px solid #ECECEC;
+}
+
 .portfolio {
   position: absolute;
   width: 1px;
