@@ -64,15 +64,15 @@ transition: var(--transition-dur-func);
                  margin-bottom: 302px;
                 }
 
-.mobile-menu-information {
-    display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+// .mobile-menu-information {
+//     display: flex;
+//         flex-direction: column;
+//         align-items: flex-start;
 
     
-    width: auto;
-    height: 100%;
-}
+//     width: auto;
+//     height: 100%;
+// }
 
    .mobile-menu__link {
 
@@ -165,19 +165,21 @@ transition: var(--transition-dur-func);
         }
     .mobile-social-menu__link {
         
-            font-size: 13px;
+            font-size: 10px;
     }
         .mobile-menu__link {
             font-size: 30px;
         }
 
-     
-
                  .mobile-contact__link {
-                    font-size: 18px;
+                    font-size: 16px;
                  }
+
+                                  .mobile-contact__item:not(:last-child) {
+                                      margin-bottom: 25px;
+                                  }
                                         .number {
-                                            font-size: 24px;
+                                            font-size: 22px;
                                         }
 }
 
