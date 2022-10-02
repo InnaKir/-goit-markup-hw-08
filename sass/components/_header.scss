@@ -61,7 +61,7 @@
     display: none;
   }
     .header {
-      padding: 24px 0px;
+      padding: 14px 0px;
       border: 1px solid #ECECEC;
   
       .container {
@@ -184,6 +184,10 @@
   // 1200
 
     @media screen and (min-width: 1200px) {
+
+    .header {
+        padding: 24px 0px;
+      }
 .contacts {
     display: flex;
     align-items: center;
