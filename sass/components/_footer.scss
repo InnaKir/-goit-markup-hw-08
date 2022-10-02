@@ -83,7 +83,7 @@
 
     margin-right: 12px;
     padding-left: 16px;
-    width: 358px;
+    // width: 358px;
     height: 50px;
     background-color: transparent;
 
@@ -149,7 +149,7 @@
     .footer-tablet-common {
     display: flex;
     align-items: baseline;
-justify-content: space-between;
+justify-content: space-around;
 margin-bottom: 60px;
 }
 
@@ -166,6 +166,7 @@ margin-bottom: 60px;
 
 .footer-subscribe-input {
     margin-bottom: 20px;
+    width: 450px;
 }
 }
 
@@ -186,6 +187,10 @@ margin-bottom: 60px;
 }
 .footer-colum-left {
     margin-right: 70px;
+    text-align: left;
+}
+.footer-titel {
+    text-align: left;
 }
 
 .footer-modal-form {
@@ -194,6 +199,7 @@ margin-bottom: 60px;
 }
 .footer-subscribe-input {
     margin-bottom: 0px;
+    width: 358px;
 }
 
 .footer-tablet-common {

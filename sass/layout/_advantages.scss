@@ -39,6 +39,7 @@
          .about-menu__text {
                  font-weight: 400;
                  line-height: 1.71;
+                letter-spacing: 0.03em;
                  color: var(--secondary-text-color);
                  
              }
@@ -51,7 +52,7 @@
           text-align: center;
 }
 .about-menu__text {
-    text-align: justify;
+    // text-align: justify;
     margin-bottom: 30px;
 }
 }

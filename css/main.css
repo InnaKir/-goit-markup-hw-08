@@ -176,8 +176,8 @@ button {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--main-text-color);
     transition: color var(--transition-dur-func);
   }
@@ -470,7 +470,6 @@ button {
   box-sizing: border-box;
   margin-right: 12px;
   padding-left: 16px;
-  width: 358px;
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -528,7 +527,7 @@ button {
   .footer-tablet-common {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
   }
   .footer-colum-left {
@@ -542,6 +541,7 @@ button {
   }
   .footer-subscribe-input {
     margin-bottom: 20px;
+    width: 450px;
   }
 }
 /* 
@@ -555,6 +555,10 @@ button {
   }
   .footer-colum-left {
     margin-right: 70px;
+    text-align: left;
+  }
+  .footer-titel {
+    text-align: left;
   }
   .footer-modal-form {
     display: flex;
@@ -562,6 +566,7 @@ button {
   }
   .footer-subscribe-input {
     margin-bottom: 0px;
+    width: 358px;
   }
   .footer-tablet-common {
     margin-bottom: 0;
@@ -956,6 +961,7 @@ button {
 .about-menu__text {
   font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -965,7 +971,6 @@ button {
     text-align: center;
   }
   .about-menu__text {
-    text-align: justify;
     margin-bottom: 30px;
   }
 }
