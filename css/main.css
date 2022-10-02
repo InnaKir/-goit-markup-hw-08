@@ -364,7 +364,7 @@ button {
   }
 }
 /* 0 - 320 */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .mobile-menu {
     overflow-y: auto;
   }
@@ -626,13 +626,13 @@ button {
 }
 
 /* 0-450 */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .modal {
     max-width: 450px;
   }
 }
 /* 0px - 767px */
-@media screen and (min-width: 451px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .modal {
     width: 450px;
   }
@@ -798,7 +798,7 @@ button {
   }
 }
 /* 0 - 450 */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .modal-form-check-field {
     font-size: 8px;
     line-height: 1.17;

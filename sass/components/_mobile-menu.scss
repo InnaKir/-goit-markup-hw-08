@@ -156,8 +156,9 @@ transition: var(--transition-dur-func);
 
 /* 0 - 320 */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 .mobile-menu {
+  
     overflow-y: auto;
 }
     .mobile-menu-header {
